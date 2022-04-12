@@ -1,0 +1,161 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    
+}
+
+.header {
+ display: flex;
+ justify-content: space-between;
+ background-color: #1F2937;
+ padding-left: 150px;
+ padding-top: 10px;
+}
+
+.header-links {
+    display: flex;
+    gap: 8px;
+    padding-top: 10px;
+    padding-right: 150px;
+
+}
+
+
+
+.holy-upperbody {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+    background-color: #1F2937;
+}
+
+
+.image-placeholder {
+    display: flex;
+    flex: 1;
+    max-width: fit-content;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.holy-underbody{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    border-radius: 25px;
+    border: 2px solid #3391df;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+  }
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100px;
+    padding-top: 24px;
+    
+}
+
+.color-mid {
+    background-color:antiquewhite
+}
+
+.quote-part {
+    display: flex;
+    justify-content: center;
+    padding: 100px 100px 0px 100px
+}
+
+.quote-color {
+    background-color: rgb(187, 209, 243);
+}
+
+.name {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+}
+
+.call-to-action {
+    border-radius: 10px;
+    margin: 50px 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3391df;
+}
+
+.call-to-action-text {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+
+}
+
+.footer {
+display: flex;
+justify-content: center;
+margin-top: auto;
+background-color: darkslategray;
+
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+}
+
+button {
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    background: #0069ed;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+button:hover,
+button:focus {
+    background: #0053ba;
+}
+
+button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(0.99);
+}
